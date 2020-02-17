@@ -11,7 +11,7 @@ handlers:
 env_variables:
   MYSQL_DSN: mysql:unix_socket=/cloudsql/my-project-mikeapp:us-west2:mikedb;dbname=people_data
   MYSQL_USER: root
-  MYSQL_PASSWORD: 'Juicy121$!'
+  MYSQL_PASSWORD: 'UnitySongRoot1'
 
 
 
