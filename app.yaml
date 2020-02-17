@@ -1,17 +1,17 @@
 # Use the PHP 7.3 runtime (BETA) by replacing "php72" below with "php73"
 runtime: php72
-api_version: 1
-application: my-project-mikeapp
-version: v1
+# api_version: 1
+# application: my-project-mikeapp
+# version: v1
 
-handlers:
-- url: /.*
-  script: index.php
+# handlers:
+# - url: /.*
+#  script: index.php
 
-env_variables:
-  MYSQL_DSN: mysql:unix_socket=/cloudsql/my-project-mikeapp:us-west2:mikedb;dbname=people_data
-  MYSQL_USER: root
-  MYSQL_PASSWORD: 'UnitySongRoot1'
+# env_variables:
+#  MYSQL_DSN: mysql:unix_socket=/cloudsql/my-project-mikeapp:us-west2:mikedb;dbname=people_data
+#  MYSQL_USER: root
+#  MYSQL_PASSWORD: 'UnitySongRoot1'
 
 
 
