@@ -1,5 +1,5 @@
 <?php
-$servername = "my-project-mikeapp:us-west2:mikedb";
+$servername = "34.94.86.164";
 $username = "root";
 $password = "UnitySongRoot1";
 $dbname = "people_data";
